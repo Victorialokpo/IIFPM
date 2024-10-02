@@ -1,0 +1,133 @@
+/* Styles de base du header */
+header {
+    background-color: #ff0000;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s ease; /* Pour déplacer le header */
+    z-index: 1000; /* Assurer que le header reste au-dessus du contenu */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hamburger {
+    font-size: 30px;
+    cursor: pointer;
+    display: block; /* Afficher le hamburger par défaut */
+}
+
+/* Menu latéral caché à droite */
+.nav-content {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #ff0000;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    right: -250px; /* Caché hors de l'écran à droite */
+    height: 100vh;
+    transition: right 0.3s ease; /* Animation pour le glissement */
+    z-index: 1000;
+}
+
+/* Style des liens dans le menu */
+.nav-content li {
+    width: 100%;
+    white-space: nowrap;
+
+}
+
+.nav-content li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 15px 10px;
+    display: block;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.nav-content li a:hover {
+    background-color: black;
+}
+
+/* Bouton de fermeture du menu */
+.close-btn {
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px 15px;
+    display: block;
+    text-align: left; /* Icône à gauche du menu */
+    color: white;
+}
+
+/* Global styles for the rest of the page */
+.main-content {
+    transition: transform 0.3s ease; /* Transition douce pour le déplacement */
+    padding: 20px; /* Ajouter un peu de padding pour un bon espacement */
+}
+
+/* Responsive pour les petits écrans */
+@media (max-width: 768px) {
+    /* Par défaut, le menu est caché à droite */
+    .nav-content {
+        right: -250px;
+    }
+
+    /* Lorsqu'on ouvre le menu, il glisse depuis la droite */
+    .nav-content.active {
+        right: 0;
+    }
+
+    /* Déplacer tout le contenu (header et main-content) vers la gauche */
+    .main-content.active,
+    header.active {
+        transform: translateX(-250px); /* Décale le contenu et le header vers la gauche */
+        transition: transform 0.3s ease; /* Transition douce */
+    }
+}
+
+/* Cacher le menu hamburger et afficher les liens de navigation sur les grands écrans */
+@media (min-width: 769px) {
+    .hamburger {
+        display: none; /* Cacher le hamburger sur les écrans plus larges */
+    }
+
+    /* Cacher le bouton de fermeture pour la version PC */
+    .close-btn {
+        display: none; /* Masquer la croix de fermeture sur les grands écrans */
+    }
+
+    /* Afficher le menu de navigation sous forme de liens inline */
+    .nav-content {
+        position: static; /* Retirer le positionnement fixe */
+        width: auto; /* Adapter la largeur au contenu */
+        height: auto; /* Retirer la hauteur fixe */
+        display: flex; /* Afficher le menu comme une ligne de navigation */
+        justify-content: flex-end; /* Aligner les liens à droite */
+        background-color: transparent; /* Enlever l'arrière-plan rouge pour se fondre dans le header */
+    }
+
+    .nav-content li {
+        display: inline-block; /* Afficher les éléments de navigation sur une seule ligne */
+        margin-left: 20px; /* Espacement entre les liens */
+    }
+
+    .nav-content li a {
+        font-size: 16px;
+        padding: 0; /* Retirer le padding inutile pour les liens */
+    }
+
+    .main-content,
+    header {
+        transform: none; /* Assurer que rien ne se déplace sur les grands écrans */
+    }
+}

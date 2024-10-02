@@ -1,0 +1,91 @@
+.our-actions {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .actions-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .action-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 30%;
+    transition: transform 0.3s ease;
+  }
+  
+  .action-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .action-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .action-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .action-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e63946;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #d62828;
+  }
+  
+  .impact-numbers {
+    padding: 40px 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  .numbers-action-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .number-action-item h3 {
+    font-size: 3rem;
+    color: #e63946;
+  }
+  
+  .number-item p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .partners {
+    padding: 40px 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  .partners-logos img {
+    width: 150px;
+    margin: 20px;
+  }

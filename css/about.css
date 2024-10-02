@@ -1,0 +1,158 @@
+.about-hero{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 50px;
+      position: relative;
+      overflow: hidden;
+      height: 400px; 
+   }
+  
+   .hero-image{
+    width: 1920px; 
+    height: 720px; 
+    object-fit: cover;
+   }
+  
+   .hero-texte{
+    position: absolute;
+      top: 360px; 
+      left: 960px; 
+      transform: translate(-50%, -50%); 
+      text-align: center;
+      color: white;
+      z-index: 1000;
+   }
+  
+   .hero-texte a{
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+   }
+  
+  
+  
+   .about-history,
+   .about-values,
+   .about-team,
+   .our-partners,
+   .our-impact,
+   .how-to-help{
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+   } 
+  
+  
+   .about-history h2,
+   .about-values h2,
+   .about-team h2,
+   .our-partners h2,
+   .our-impact h2,
+   .how-to-help h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+   }
+  
+
+   .about-history,
+   .about-values,
+   .about-team,
+   .our-partners,
+   .our-impact,
+   .how-to-help p ul{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+   } 
+  
+  
+   .about-history,
+   .about-values,
+   .about-team,
+   .our-partners,
+   .our-impact,
+   .how-to-help ul{
+    list-style-type: none;
+   }
+  
+   .team-member img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+   }
+  
+   .impact-statistics{
+    display: flex;
+    justify-content: space-around;
+   }
+  
+   .stat h3 {
+    font-size: 3rem;
+    color: #e63946;
+  }
+  
+  .stat p {
+    font-size: 1.2rem;
+  }
+  
+  .partners-logos img {
+    width: 150px;
+    margin: 0 15px;
+  }
+  
+  .btn-donate {
+    padding: 15px 30px;
+    background-color: #e63946;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .about-intro {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    gap: 20px; 
+}
+
+.intro-text {
+    flex: 1; 
+    text-align: left; 
+    font-size: 1rem;
+}
+
+.intro-text h1 {
+    font-size: 2rem; 
+    margin-bottom: 20px;
+}
+
+.intro-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.intro-image {
+    flex: 1.5; 
+}
+
+.intro-image img {
+    width: 100%; 
+    border-radius: 10px; 
+    object-fit: cover; 
+}
+
+@media (max-width: 768px) {
+    .about-intro {
+        flex-direction: column;
+        text-align: center; 
+    }
+
+    .intro-image {
+        margin-top: 20px; 
+    }
+}

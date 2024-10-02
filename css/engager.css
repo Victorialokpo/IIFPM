@@ -1,0 +1,92 @@
+/* css page about  */
+
+.hero-about{
+    background-color: red;
+    height: 500px;
+  }
+  .hero-about-img{
+    width: 100%;
+    
+  }
+  
+  /* section s'ebgager */
+  .engage-intro {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .engage-intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .engage-intro p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  /* Section Devenir Bénévole et Faire un Don */
+  .volunteer-section, .donation-section {
+    padding: 60px 20px;
+    text-align: left;
+    background-color: #fff;
+  }
+  
+  .volunteer-section h2, .donation-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .volunteer-section p, .donation-section p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .volunteer-section ul, .donation-section ul {
+    margin-bottom: 20px;
+  }
+  
+  .volunteer-section ul li, .donation-section ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .volunteer-section a.btn, .donation-section a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e63946;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .volunteer-section a.btn:hover, .donation-section a.btn:hover {
+    background-color: #d62828;
+  }
+  
+  /* Section appel à l'action */
+  .call-to-action {
+    padding: 40px 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  .call-to-action p {
+    margin-bottom: 20px;
+  }
+  
+  .call-to-action a.btn {
+    background-color: #e63946;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+  }
+  
+  .call-to-action a.btn:hover {
+    background-color: #d62828;
+    }

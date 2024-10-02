@@ -1,0 +1,75 @@
+.upcoming-events, .past-events {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .events-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .event-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 45%;
+  }
+  
+  .event-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .event-card p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #e63946;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .btn:hover {
+    background-color: #d62828;
+  }
+  
+  .events-calendar {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  iframe {
+    border: none;
+  }
+  
+  .call-to-action {
+    padding: 60px 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  .call-to-action p {
+    margin-bottom: 20px;
+  }
+  
+  .call-to-action .btn {
+    background-color: #e63946;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .call-to-action .btn:hover {
+    background-color: #d62828;
+  }

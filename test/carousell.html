@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="testimonial-carousel">
+        <div class="testimonial-item active">
+            <p>"Témoignage 1 : Ce site a changé ma vie !"</p>
+            <h4>- Personne 1</h4>
+        </div>
+        <div class="testimonial-item">
+            <p>"Témoignage 2 : Service impeccable et rapide."</p>
+            <h4>- Personne 2</h4>
+        </div>
+        <div class="testimonial-item">
+            <p>"Témoignage 3 : Je recommande à 100%."</p>
+            <h4>- Personne 3</h4>
+        </div>
+    
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+    
+</body>
+<style>
+    .testimonial-carousel {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.testimonial-item {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.testimonial-item.active {
+    display: block;
+    opacity: 1;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    background-color: transparent;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+    color: #333;
+    transform: translateY(-50%);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+</style>
+<script src="../js/main.js">
+</script>
+</html>

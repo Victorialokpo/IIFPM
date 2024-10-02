@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="testimonial-carousel">
+        <div class="testimonial-container">
+            <div class="testimonial-item active">
+                <p>"Témoignage 1 : Ce site a changé ma vie !"</p>
+                <h4>- Personne 1</h4>
+            </div>
+            <div class="testimonial-item">
+                <p>"Témoignage 2 : Service impeccable et rapide."</p>
+                <h4>- Personne 2</h4>
+            </div>
+            <div class="testimonial-item">
+                <p>"Témoignage 3 : Je recommande à 100%."</p>
+                <h4>- Personne 3</h4>
+            </div>
+        </div>
+    
+        <!-- Pagination (indicateurs) -->
+        <div class="testimonial-dots">
+            <span class="dot active" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+    
+        <!-- Flèches de navigation -->
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+</body>
+
+<style>
+        /* Style du carrousel */
+    .testimonial-carousel {
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+        overflow: hidden;
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .testimonial-container {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        width: 300%;
+    }
+
+    .testimonial-item {
+    flex: 1;
+    min-width: 100%;
+    display: none; /* Remplacer opacity par display: none */
+}
+
+.testimonial-item.active {
+    display: block; /* Affiche uniquement l'élément actif */
+}
+
+    .testimonial-dots {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 5px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .dot.active {
+        background-color: #717171;
+    }
+
+    button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: transparent;
+        border: none;
+        font-size: 2em;
+        cursor: pointer;
+        color: #333;
+        z-index: 10;
+    }
+
+    .prev {
+        left: 10px;
+    }
+
+    .next {
+        right: 10px;
+    }
+
+    /* Media queries pour les petits écrans */
+    @media (max-width: 768px) {
+        .testimonial-carousel {
+            width: 100%;
+        }
+    }
+
+</style>
+
+<script>
+   let currentSlideIndex = 0;
+const slides = document.querySelectorAll('.testimonial-item');
+const dots = document.querySelectorAll('.dot');
+
+function changeSlide(direction) {
+    // Cache le slide actuel
+    slides[currentSlideIndex].classList.remove('active');
+    dots[currentSlideIndex].classList.remove('active');
+    
+    // Calcul de l'index de la nouvelle diapositive
+    currentSlideIndex = (currentSlideIndex + direction + slides.length) % slides.length;
+    
+    // Affiche la nouvelle diapositive
+    slides[currentSlideIndex].classList.add('active');
+    dots[currentSlideIndex].classList.add('active');
+}
+
+function currentSlide(n) {
+    // Cache la diapositive actuelle
+    slides[currentSlideIndex].classList.remove('active');
+    dots[currentSlideIndex].classList.remove('active');
+    
+    // Mise à jour de l'index avec la diapositive sélectionnée
+    currentSlideIndex = n;
+    
+    // Affiche la nouvelle diapositive
+    slides[currentSlideIndex].classList.add('active');
+    dots[currentSlideIndex].classList.add('active');
+}
+
+// Initialiser la première diapositive à l'affichage
+document.addEventListener('DOMContentLoaded', function () {
+    slides[currentSlideIndex].classList.add('active');
+    dots[currentSlideIndex].classList.add('active');
+});
+
+
+</script>
+</html>

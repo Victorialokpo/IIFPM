@@ -1,0 +1,76 @@
+.testimonial-carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    max-width: 800px;
+    margin: 0 auto;   
+}
+
+.slides {
+    display: flex;
+    width: 500%; /* Ajuste la largeur en fonction du nombre de slides */
+    transition: transform 0.3s ease-in-out;
+}
+
+.testimonial-card {
+    flex: 0 0 20%; /* Chaque card prend 20% si 5 slides, change selon le nombre de slides */
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.testimonial-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.testimonial-card h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e63946;
+}
+
+.carousel-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.carousel-controls button {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.carousel-controls .prev {
+    left: 10px;
+}
+
+.carousel-controls .next {
+    right: 10px;
+}
+
+/* Pour empêcher les débordements horizontaux */
+body {
+    overflow-x: hidden;
+}

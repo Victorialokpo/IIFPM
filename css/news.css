@@ -1,0 +1,118 @@
+.latest-news {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .news-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 45%;
+  }
+  
+  .news-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .news-card p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .news-card .btn {
+    padding: 10px 20px;
+    background-color: #e63946;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .news-card .btn:hover {
+    background-color: #d62828;
+  }
+  
+  .featured-news {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .featured-news-card {
+    display: block;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .featured-news-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .featured-news-card h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .featured-news-card p {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .featured-news-card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e63946;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .featured-news-card .btn:hover {
+    background-color: #d62828;
+  }
+  
+  .newsletter {
+    padding: 60px 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  .newsletter p {
+    margin-bottom: 20px;
+  }
+  
+  .newsletter form {
+    display: inline-block;
+  }
+  
+  .newsletter input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+  
+  .newsletter button {
+    padding: 10px 20px;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

@@ -1,0 +1,16 @@
+* {
+    margin: 100%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "header.css";
+@import "about.css";
+@import "action.css";
+@import "causes.css";
+@import "contact.css";
+@import "engager.css";
+@import "events.css";
+@import "news.css";
+@import "index.css";
+@import "footer.css";

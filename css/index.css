@@ -1,0 +1,232 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 50px; */
+  position: relative;
+  overflow: hidden;
+  height: 50vh; /* Utiliser vh (viewport height) pour s'adapter à l'écran */
+}
+
+.carousel {
+  width: 100vw; /* Utiliser la largeur du viewport pour que le carousel occupe 100% de la largeur */
+  height: 50vh; /* Adapter la hauteur à l'écran avec vh */
+  position: relative;
+}
+
+.slides {
+  display: flex;
+  width: 300vw; /* Multiplier la largeur en fonction du nombre de slides (100vw par slide) */
+  height: 100%;
+  transition: transform 1s ease-in-out;
+}
+
+.slide {
+  width: 100vw; /* Chaque slide occupe 100% de la largeur de l'écran */
+  height: 100%;
+  flex-shrink: 0;
+}
+
+.img-carousel {
+  width: 100vw; /* L'image occupe la largeur de l'écran */
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%; /* Centré verticalement */
+  left: 50%; /* Centré horizontalement */
+  transform: translate(-50%, -50%); /* Ajustement pour centrer le texte */
+  text-align: center;
+  color: white;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text-about {
+  position: absolute;
+  top: 55%; /* Ajuster la position selon le texte */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 1000;
+  font-size: larger;
+}
+
+.hero-text-about a {
+  text-decoration: none;
+  color: gray;
+}
+
+.hero-text h1 {
+  font-size: 6vw; /* Utiliser vw pour rendre la taille de la police responsive */
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  font-size: 3.5vw; /* Adapter la taille du texte pour les petits écrans */
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 15px 30px;
+  background-color: #e63946;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 3.5vw; /* Adapter la taille du bouton */
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  33% { transform: translateX(-100vw); } /* Passer à la slide suivante */
+  66% { transform: translateX(-200vw); }
+  100% { transform: translateX(0); }
+}
+
+.slides {
+  animation: slide 10s infinite;
+}
+
+.carousel::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw; /* Couvrir la largeur de l'écran */
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Couche semi-transparente sur le carousel */
+  z-index: 1;
+}
+
+/* Media queries pour grands écrans */
+@media (min-width: 1024px) {
+  .img-carousel {
+    width: 100%; /* L'image occupe 100% de la largeur disponible */
+    height: auto; /* Ajuster la hauteur automatiquement */
+  }
+
+  .btn {
+    font-size: 1.5rem; /* Fixer la taille du bouton pour les grands écrans */
+    padding: 10px 20px; /* Ajuster le padding */
+  }
+
+  .hero {
+    /* height: 80vh; Augmenter la hauteur de la section sur les grands écrans */
+  }
+
+  .hero-text h1 {
+    font-size: 3rem; /* Fixer la taille de la police pour les grands écrans */
+  }
+
+  .hero-text p {
+    font-size: 1.5rem; /* Fixer la taille du texte pour les grands écrans */
+  }
+}
+
+
+/* action*/
+.action {
+  padding: 50px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.action h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.action-cards {
+  display: flex; 
+  justify-content: space-between; 
+  flex-wrap: wrap; 
+  gap: 20px; 
+}
+
+.action-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: calc(33.33% - 20px); 
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  box-sizing: border-box; 
+}
+
+.action-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.action-card p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #e63946;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .action-card {
+      width: 100%; 
+      margin-bottom: 20px;
+  }
+}
+
+/*fin action*/
+
+
+
+  /*partner*/
+  .partenaires{
+    padding: 50px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.partenaires h2{
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+
+  .partners-logos{
+    display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  }
+
+  .partners-logos img{
+    width: 150px;
+    height: auto;
+  }
+  /* fin partner */
+
+  /* newletter */
+  .cta-newletter{
+    padding: 50px;
+    background-color: #e63946;
+    color: white;
+    text-align: center;
+
+}
+
+.cta-newletter h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+/* fin newletter*/
+
+
+  
