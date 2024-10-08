@@ -131,52 +131,39 @@
 
 
 /* action*/
-.action {
-  padding: 50px;
+/* Section "Qui sommes-nous" */
+.about-ifpm {
   background-color: #f9f9f9;
+  padding: 60px 20px;
   text-align: center;
 }
 
-.action h2 {
+.about-ifpm h2 {
   font-size: 2.5rem;
-  margin-bottom: 40px;
-  text-align: center;
-}
-
-.action-cards {
-  display: flex; 
-  justify-content: space-between; 
-  flex-wrap: wrap; 
-  gap: 20px; 
-}
-
-.action-card {
-  background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  width: calc(33.33% - 20px); 
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  box-sizing: border-box; 
-}
-
-.action-card h3 {
-  font-size: 1.5rem;
-  margin-bottom: 15px;
-}
-
-.action-card p {
-  font-size: 1rem;
+  color: #333;
   margin-bottom: 20px;
 }
 
-.btn {
-  padding: 10px 20px;
+.about-ifpm p {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.about-ifpm .btn {
   background-color: #e63946;
   color: white;
+  padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
+  font-size: 1rem;
 }
+
+.about-ifpm .btn:hover {
+  background-color: #d62828;
+}
+
 
 @media (max-width: 768px) {
   .action-card {
@@ -192,7 +179,6 @@
   /*partner*/
   .partenaires{
     padding: 50px;
-  background-color: #fff;
   text-align: center;
 }
 
@@ -216,7 +202,7 @@
   /* newletter */
   .cta-newletter{
     padding: 50px;
-    background-color: #e63946;
+    background-color: #69d3c6;
     color: white;
     text-align: center;
 
@@ -226,7 +212,36 @@
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
+
+.btn{
+  background-color: #004890;
+}
 /* fin newletter*/
 
+.identite{
+  padding: 60px 20px;
+    text-align: center;
 
+}
+
+.identite h2{
+  font-size: 2.5rem;
+    margin-bottom: 20px;
+}
   
+.why-choose-ifpm{
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.why-choose-ifpm h2{
+  font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.identite,
+.partenaires,
+.why-choose-ifpm,
+.our-formation{
+  background-image: url();
+}

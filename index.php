@@ -7,102 +7,67 @@
                 <div class="carousel">
                     <div class="slides">
                       <div class="slide active">
-                <img class="img-carousel" src="images/photo ong.jpeg" alt="image 1">
+                <img class="img-carousel" src="image medicales/iifpm.jpeg" alt="image 1">
                       </div>
 
                       <div class="slide">
-                        <img class="img-carousel" src="images/solidaires.jpg" alt="Image 2">
+                        <img class="img-carousel" src="image medicales/ifpm.jpeg" alt="Image 2">
                       </div>
 
                       <div class="slide">
-                        <img class="img-carousel" src="images/ong 2.jpg" alt="Image 3">
+                        <img class="img-carousel" src="image medicales/etudiant1.jpg" alt="Image 3">
                       </div>
                 </div>
                </div>
 
             <div class="hero-text">
-                <h1>Aidez, c'est notre mission</h1>
-                <p>Rejoignez notre cause pour aider des milliers d'enfants à grandir dans l'amour et la sécurité.</p>
-                <a href="#donate" class="btn">Faire un don</a>
+                <h1>Institut International de Formation Paramédical</h1>
+                <p>"Formez votre avenir, devenez acteur de la santé !"</p>
+                <a href="../Contact.php" class="btn">S'inscrire maintenant</a>
             </div>
         </section>
-
-        <section class="action">
-            <h2>Nos Actions</h2>
-            <div class="action-cards">
-                <div class="action-card">
-                    <img src="images/repas website.jpeg" alt="programme cantine scolaire">
-                    <h3>Programme Nutritionnel</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ratione neque dolor quidem esse at, quibusdam voluptatibus voluptate, dolore ducimus maxime quod error eaque ut eum veritatis, quos vero dolores.</p>
-                     <a href="#nutrition" class="btn">En savoir plus</a>
-                </div>
-
-                <div class="action-card">
-                    <img src="images/images (1).jpeg" alt="Soutien psychologique">
-                    <h3>Soutien Psychologique</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores tempora necessitatibus expedita odit, corporis dolorem porro, reprehenderit ducimus sit quidem non recusandae dolor fugit! Eius error alias dolore adipisci. Magnam.</p>
-                    <a href="#psychology" class="btn">En savoir plus</a>
-                  </div>
-
-                  <div class="action-card">
-                    <img src="images/edcuc.jpeg" alt="programme d'education">
-                    <h3>Soutien Psychologique</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo autem ad provident maxime et perferendis eos, placeat suscipit ratione ullam facere accusamus delectus recusandae laborum ab tempore minus repudiandae alias.</p>
-                    <a href="#education" class="btn">En savoir plus</a>
-                  </div>
-               </div>
+ 
+        <section class="identite">
+            <h3>Qui sommes nous?</h3>
+            <p>L'Institut International de Formation Paramédical est un établissement de formation reconnu, spécialisé dans l'enseignement des métiers de la santé. Nous formons des étudiants pour devenir des professionnels qualifiés tels que le personnel auxiliaire médical, le personnel pharmaceutique et les délégués médicaux.
+            </p>
         </section>
 
-        <section class="testimonials">
-    <h2>Temoignages</h2>
-    <div class="testimonial-carousel">
-        <!-- Conteneur des slides -->
-        <div class="slides">
-            <!-- Carte de témoignage 1 -->
-            <article class="testimonial-card">
-                <img src="images/istockphoto-1389348844-612x612.jpg" alt="Photo de Jane Doe">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
-                <h4>Jane Doe</h4>
-            </article>
-
-            <!-- Carte de témoignage 2 -->
-            <article class="testimonial-card">
-                <img src="images/istockphoto-1171169099-612x612.jpg" alt="Photo de John Smith">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
-                <h4>John Smith</h4>
-            </article>
-
-            <!-- Carte de témoignage 3 -->
-            <article class="testimonial-card">
-                <img src="images/positive-african-man-beard-looks-260nw-2087618245.webp" alt="Photo de témoignage">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
-                <h4>Unknown</h4>
-            </article>
-
-            <!-- Carte de témoignage 4 -->
-            <article class="testimonial-card">
-                <img src="images/femme.jpeg" alt="Photo de témoignage">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
-                <h4>Unknown</h4>
-            </article>
-
-            <!-- Carte de témoignage 5 -->
-            <article class="testimonial-card">
-                <img src="images/ong3.jpg" alt="Photo de témoignage">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
-                <h4>Unknown</h4>
-            </article>
+        <section class="why-choose-ifpm">
+    <h2>Pourquoi choisir l'IIFPM ?</h2>
+    <div class="advantages">
+        <div class="advantage">
+            <img src="image medicales/formation.jpg" alt="Formation rapide">
+            <h3>Formation rapide</h3>
+            <p>Devenez un professionnel qualifié en seulement 4 mois.</p>
+        </div>
+        <div class="advantage">
+            <img src="image medicales/Employabilité.jpg" alt="Employabilité">
+            <h3>Employabilité</h3>
+            <p>Nos étudiants sont directement placés sur le marché du travail grâce à notre réseau de partenaires.</p>
+        </div>
+        <div class="advantage">
+            <img src="image medicales/Devenir formation Medical Sant.jpg" alt="Formateurs experts">
+            <h3>Formateurs experts</h3>
+            <p>Nos formateurs sont des experts du secteur de la santé avec une solide expérience.</p>
         </div>
 
-        <!-- Contrôles du carrousel -->
-        <div class="carousel-controls">
-            <button class="prev" aria-label="Témoignage précédent">❮</button>
-            <button class="next" aria-label="Témoignage suivant">❯</button>
+
+<section class="our-formations" id="formations">
+    <h2>Nos Formations</h2>
+    <div class="formation-list">
+        <div class="formation-item">
+            <h3>Délégué Médical Spécialisé</h3>
+            <p>Formez-vous en 4 mois pour devenir un délégué médical qualifié et un intermédiaire clé entre les laboratoires et les professionnels de santé.</p>
+            <a href="formations.php#delegue-medical" class="btn">En savoir plus</a>
         </div>
-    </div>
-</section>
-
-
+        <div class="formation-item">
+            <h3>Personnel Auxiliaire Médical</h3>
+            <p>Devenez un auxiliaire médical qualifié et travaillez dans les hôpitaux, cliniques et pharmacies en soutien aux équipes de santé.</p>
+            <a href="formations.php#auxiliaire-medical" class="btn">En savoir plus</a>
+        </div>
+        <div class="formation-item">
+            <h3>Technicien Pharmaceutique</h>
 
         <section class="partenaires">
             <h2>Nos partenaires</h2>
@@ -115,7 +80,7 @@
 
         <section class="cta-newletter">
             <h2>Restez informé</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime dicta deleniti temporibus dolorem at? Consequatur cumque incidunt, quos, est obcaecati facere nihil quae odio non dicta mollitia doloremque! Unde, voluptatem.*</p>
+            <p>Restez informé des dernières actualités, formations et opportunités de l'IFPM.</p>
             <form>
                 <input type="Email" placeholder="Entrez votre email" required>
                 <button type="submit" class="btn">S'inscrire</button>

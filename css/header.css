@@ -1,6 +1,6 @@
 /* Styles de base du header */
 header {
-    background-color: #ff0000;
+    background-color: #004890;
     color: white;
     padding: 15px;
     display: flex;
@@ -28,7 +28,7 @@ header {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    background-color: #ff0000;
+    background-color: #004890;
     width: 250px;
     position: fixed;
     top: 0;
@@ -67,6 +67,7 @@ header {
     display: block;
     text-align: left; /* Icône à gauche du menu */
     color: white;
+    background-color: rgb(99, 165, 153);
 }
 
 /* Global styles for the rest of the page */

@@ -1,6 +1,6 @@
 <?php include ('layout/header.php') ; ?>
 
-<section class="hero">
+<!--section class="hero">
             <div class="carousel">
                 <div class="slide active">
                     <img class="img-carousel" src="images/photo ong.jpeg" alt="image 1">
@@ -76,6 +76,6 @@
     <p>Chaque geste compte pour aider ces enfants à vivre une vie meilleure. Soutenez nos causes et devenez un acteur du changement.</p>
     <a href="donation.php" class="btn">Faire un don</a>
     <a href="volunteer.php" class="btn">Devenir bénévole</a>
-</section>
+</section-->
 
 <?php include ('layout/footer.php') ; ?>

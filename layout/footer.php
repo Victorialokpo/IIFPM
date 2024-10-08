@@ -2,7 +2,7 @@
     <div class="footer-container"> <!-- ouverture container -->
        
         <div class="footer-about">
-            <h3>A propos de l'ONG</h3>
+            <h3>A propos de l'Institut</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident necessitatibus voluptatibus quis quas libero. Sed, quod modi accusamus debitis nam eveniet dolorem iste recusandae cum est mollitia alias sequi.</p>
         </div>
 
@@ -12,7 +12,7 @@
             <ul>
                 <li><a href="../index.php">Accueil</a></li>
                 <li><a href="../about.php">A propos de nous</a></li>
-                <li><a href="../action.php">Nos actions</a></li>
+                <li><a href="../action.php">Nos formations</a></li>
                 <li><a href="../Causes.php">Causes</a></li>
                 <li><a href="../Events.php">Evènements</a></li>
                 <li><a href="../News.php">Actualités</a></li>
@@ -23,7 +23,7 @@
         
         <div class="footer-contact">
             <h3>Contact</h3>
-            <p>Email : contact@ong.org</p>
+            <p>Email : contact@medical.org</p>
             <p>Téléphone : 01 02 03 04 05</p>
             <p>Adresse : Abidjan, Côte d'Ivoire</p>
         </div>

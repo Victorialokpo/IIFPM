@@ -44,14 +44,14 @@
   .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #e63946;
+    background-color: #004890;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
   }
   
   .btn:hover {
-    background-color: #d62828;
+    background-color: #004890;
   }
   
   .impact-numbers {

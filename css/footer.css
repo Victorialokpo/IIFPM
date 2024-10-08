@@ -1,5 +1,5 @@
 footer {
-  background-color: black;
+  background-color: #004890;
   color: #fff;
   padding: 40px 0;
   width: 100%; 
@@ -108,8 +108,8 @@ footer {
   }
 }
 footer {
-  background-color: black;
-  color: #fff;
+  background-color: #0d4e2c;
+  color: white;
   padding: 40px 0;
   width: 100%; 
   box-sizing: border-box; 
@@ -185,7 +185,7 @@ footer {
 
 .footer-newsletter button {
   padding: 10px;
-  background-color: #e63946;
+  background-color: #004890;
   color: #fff;
   border: none;
   border-radius: 5px;

@@ -4,7 +4,7 @@
 <section class="hero">
             <div class="carousel">
                 <div class="slide active">
-                    <img class="img-carousel" src="images/photo ong.jpeg" alt="image 1">
+                    <img class="img-carousel" src="image medicales/iifpm.jpeg" alt="image 1">
                 </div>
                 <div class="hero-text-about">
                     <h1><strong>NOUS CONTACTEZ</strong></h1>
@@ -34,9 +34,9 @@
 
 <section class="contact-info">
     <h2>Nos coordonnées</h2>
-    <p><strong>Adresse :</strong> Rue des Orphelins, Abidjan, Côte d'Ivoire</p>
+    <p><strong>Adresse :</strong> Cocody Abatta, Abidjan, Côte d'Ivoire</p>
     <p><strong>Téléphone :</strong> +225 01 02 03 04 05</p>
-    <p><strong>Email :</strong> contact@ong.org</p>
+    <p><strong>Email :</strong> contact@medical.org</p>
     <p><strong>Horaires :</strong> Lundi - Vendredi : 9h00 - 18h00</p>
 </section>
 

@@ -6,7 +6,7 @@
         <section class="hero">
             <div class="carousel">
                 <div class="slide active">
-                    <img class="img-carousel" src="images/photo ong.jpeg" alt="image 1">
+                    <img class="img-carousel" src="image medicales/iifpm.jpeg" alt="image 1">
                 </div>
                 <div class="hero-text-about">
                     <h1><strong>A PROPOS</strong></h1>
@@ -18,26 +18,27 @@
     <section class="about-intro">
         <div class="intro-text">
             <h1>Qui sommes nous?</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis accusantium eveniet voluptatum ipsa officia doloribus repellendus id sapiente dolorem enim quod fugiat at provident esse, libero consequatur eius ea facilis.</p>
+            <p>L'Institut International de Formation Paramédical est un établissement de formation reconnu, spécialisé dans l'enseignement des métiers de la santé. Nous formons des étudiants pour devenir des professionnels qualifiés tels que le personnel auxiliaire médical, le personnel pharmaceutique et les délégués médicaux.
+            </p>
         </div>
 
         <div class="intro-image">
-            <img src="images/orphélins.jpeg" alt="Notre mission">
+            <img src="image medicales/etudiant1.jpg" alt="Notre mission">
         </div>
     </section>
 
     <section class="about-history">
         <h2>Notre histoire</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum aspernatur cum distinctio exercitationem quod minus quaerat cupiditate. Ducimus, maiores est? Aspernatur autem quae veniam aperiam pariatur earum, ut perferendis veritatis.</p>
+        <p>INSTITUT INTERNATIONAL DE FORMATIOIN PARA MEDICAL, est une vision de Madame Gnabro Claudine délégué médicale, passionnée et experte dans la representation des laboratoires médicaux en cote d'ivoire et en Afrique. Avec plus de 25 d'expériences; elle fut l'une des leiulleurs delegués de son époques auprès des grandes boites internationales. aujourd'hui Directrice generale et gerante de l'entreprise DIAPHARM, une entreprise de représentation des boites pharmaceutiques internationales en cote d'ivoire. Au-delà de son premier rôle dans la sphère médicale décide de transmettre sa plus grande vision et passion en ouvrant un centre de formation International paramédicale(IFPM).</p>
     </section>
 
     <section class="about-values">
         <h2>Nos valeurs</h2>
 
         <ul>
-            <li><strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut amet quod sunt quam ab beatae eveniet ut aliquid error earum, corrupti ratione corporis nam quia exercitationem quae ipsam consequatur. Repudiandae?</strong></li>
-            <li><strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga praesentium amet tempore voluptatibus quam exercitationem excepturi, delectus temporibus eaque sapiente numquam quo qui vero blanditiis. Quod optio exercitationem placeat hic!</strong></li>
-            <li><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum culpa officiis cupiditate nostrum labore sunt eveniet libero facere expedita eligendi saepe, laboriosam harum, quisquam consequatur distinctio sint natus odio veritatis.</strong></li>
+            <h4>Valeurs Humaines et Sociales</h4>
+            <li><strong>Nous nous engageons à lutter contre le chômage et la médiocrité.</strong></li>
+            <li><strong>Notre objectif est de former des professionnels non seulement compétents, mais aussi dotés de valeurs humaines et sociales.</strong></li>
         </ul>
     </section>
 
@@ -45,9 +46,25 @@
         <h2>Notre equipe</h2> 
         <div class="team-member">
             <img src="/" alt="fondateur">
+            <h3>Madame Gnabro Claudine</h3>
+            <img src="/" alt=directeur général>
             <h3>Unknown</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A exercitationem quam ipsum impedit, culpa, quaerat quibusdam rem laborum ad, minus molestias suscipit? Sunt quidem sapiente quos doloribus autem labore voluptas.</p>
         </div>
+    </section>
+
+    <section class="about-choix">
+        <h2>Pourquoi choisir l'IIFPM?</h2>
+        <li>Professionnalisme et Excellence
+        Nous prônons l'excellence dans l'enseignement et la pratique. Nos formateurs sont des experts du secteur, et nos programmes sont conçus pour répondre aux normes les plus élevées du marché.
+        </li>
+        <li>
+        Reconversion Professionnelle
+        L'institut offre des programmes adaptés pour aider les jeunes à se reconvertir vers des carrières prometteuses dans le domaine de la santé. C’est une chance de bâtir un avenir meilleur !
+        </li>
+        <li>Employabilité
+        En seulement 4 mois, nos étudiants acquièrent les compétences nécessaires pour entrer sur le marché du travail. Grâce à notre réseau de partenaires, nous proposons également des opportunités d'emploi directes.
+        </li>
     </section>
 
     <section class="our-partners">
@@ -63,21 +80,21 @@
         <h2>Notre impact</h2>
         <div class="impact-statistics">
             <div class="stats">
-                <h3>50+</h3>
-                <p>Enfants aidés</p>
+                <h3>500+</h3>
+                <p>Jeunes formés</p>
             </div>
 
             <div class="stats">
-                <h3>20+</h3>
-                <p>Repas distribués</p>
+                <h3>200+</h3>
+                <p>REmploi</p>
             </div>
         </div>
     </section>
 
     <section class="how-to-help">
-        <h2>Comment nous aidez</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, iusto? Delectus quibusdam ullam eligendi necessitatibus natus voluptatibus incidunt quia earum, laborum nam minus libero exercitationem perferendis magni. Sequi, error quisquam?</p>
-        <a href="#" class="btn-donate">Faire un don</a>
+        <h2>Inscrivez vous maintenant</h2>
+        <p>En seulement 4 mois, changez votre vie ! Formations de qualité dans les métiers de la santé. Contactez-nous dès aujourd'hui!</p>
+        <a href="#" class="btn-donate">S'inscrire</a>
     </section>
 
     <?php include ('layout/footer.php') ; ?>

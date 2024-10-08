@@ -36,6 +36,7 @@
    .about-history,
    .about-values,
    .about-team,
+   .about-choix,
    .our-partners,
    .our-impact,
    .how-to-help{
@@ -48,6 +49,7 @@
    .about-history h2,
    .about-values h2,
    .about-team h2,
+   .about-choix,
    .our-partners h2,
    .our-impact h2,
    .how-to-help h2{
@@ -59,6 +61,7 @@
    .about-history,
    .about-values,
    .about-team,
+   .about-choix,
    .our-partners,
    .our-impact,
    .how-to-help p ul{
@@ -71,6 +74,7 @@
    .about-history,
    .about-values,
    .about-team,
+   .about-choix,
    .our-partners,
    .our-impact,
    .how-to-help ul{
@@ -104,7 +108,7 @@
   
   .btn-donate {
     padding: 15px 30px;
-    background-color: #e63946;
+    background-color: #004890;
     color: white;
     text-decoration: none;
     border-radius: 5px;

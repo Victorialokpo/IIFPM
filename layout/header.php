@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ONG Coeur Heureux</title>
+    <title>IFPM</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -32,9 +32,9 @@
             </li>
                 <li><a href="../index.php">Accueil</a></li>
                 <li><a href="../about.php">A propos</a></li> <!-- Fermeture manquante ajoutée -->
-                <li><a href="../action.php">Nos Actions</a></li>
-                <li><a href="../Causes.php">Causes</a></li>
-                <li><a href="../engager.php">S'engager</a></li>
+                <li><a href="../action.php">Nos formations</a></li>
+                <!--li><a href="../Causes.php">Causes</a></li-->
+                <!--li><a href="../engager.php">S'engager</a></li-->
 
                 <!-- Décommenter le menu déroulant si nécessaire -->
                 <!--
@@ -44,7 +44,7 @@
                 </ul>
                 -->
 
-                <li><a href="../Events.php">Evenements</a></li>
+                <!--li><a href="../Events.php">Evenements</a></li-->
                 <li><a href="../News.php">Actualités</a></li>
                 <li><a href="../Contact.php">Nous contacter</a></li> <!-- Orthographe corrigée -->
             </ul>

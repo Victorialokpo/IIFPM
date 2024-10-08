@@ -32,7 +32,7 @@
   
   .news-card .btn {
     padding: 10px 20px;
-    background-color: #e63946;
+    background-color: #004890;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -40,7 +40,7 @@
   }
   
   .news-card .btn:hover {
-    background-color: #d62828;
+    background-color: #004890;
   }
   
   .featured-news {
@@ -110,7 +110,7 @@
   
   .newsletter button {
     padding: 10px 20px;
-    background-color: #e63946;
+    background-color: #004890;
     color: white;
     border: none;
     border-radius: 5px;
